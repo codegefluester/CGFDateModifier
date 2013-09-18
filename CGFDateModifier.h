@@ -15,18 +15,15 @@ typedef enum {
 } CGFHumanDateModifierType;
 
 @interface CGFDateModifier : NSObject
-{
-	
-}
 
 /**
- *  Usage: [NSDate dateByModifiyingDate:[NSDate date] withModifier:@"+1 week"]
+  * Usage:
+  * NSDate *multipleModifiers = [CGFDateModifier dateByModifiyingDate:[NSDate date]
+                                                        withModifiers:@{
+                                                                         @(CGFHumanDateModifierTypeDays) : @(+1),
+                                                                         @(CGFHumanDateModifierTypeMonths) : @(-1)
+                                                                       }];
  **/
-+ (NSDate*) dateByModifiyingDate:(NSDate*)date withModifier:(NSString*)modifier;
-
-/**
- *  Usage: [NSDate dateByModifiyingDate:[NSDate date] withModifiers:[NSArray arrayWithObjects:@"+1 week", @"+4 days", nil]]
- **/
-+ (NSDate*) dateByModifiyingDate:(NSDate*)date withModifiers:(NSArray*)modifiers;
++ (NSDate*) dateByModifiyingDate:(NSDate*)date withModifiers:(NSDictionary*)modifiers;
 
 @end
