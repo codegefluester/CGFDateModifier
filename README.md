@@ -3,6 +3,12 @@ CGFDateModifier
 
 Modify a NSDate the easy way
 
+CocoaPods
+===
+You can easily add `CGFDateModifier` to your project by using [CocoaPods](http://cocoapods.org).
+
+`pod 'CGFDateModifier', '~> 0.0.1'`
+
 
 Example usage
 ===
