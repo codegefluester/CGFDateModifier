@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ExampleViewController.h
 //  DateModifierExample
 //
 //  Created by Björn Kaiser on 22.01.14.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ExampleViewController.h"
+#import "CGFDateModifier.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ExampleViewController : UIViewController
+{
+    
+}
 
 @end

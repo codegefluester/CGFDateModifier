@@ -19,6 +19,9 @@
 		116945D8189023F6001D6132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945C0189023F6001D6132 /* UIKit.framework */; };
 		116945E0189023F6001D6132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116945DE189023F6001D6132 /* InfoPlist.strings */; };
 		116945E2189023F6001D6132 /* DateModifierExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945E1189023F6001D6132 /* DateModifierExampleTests.m */; };
+		116945EE18902426001D6132 /* CGFDateModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945ED18902426001D6132 /* CGFDateModifier.m */; };
+		116945F218902440001D6132 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945F018902440001D6132 /* ExampleViewController.m */; };
+		116945F318902440001D6132 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116945F118902440001D6132 /* ExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		116945DD189023F6001D6132 /* DateModifierExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateModifierExampleTests-Info.plist"; sourceTree = "<group>"; };
 		116945DF189023F6001D6132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		116945E1189023F6001D6132 /* DateModifierExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateModifierExampleTests.m; sourceTree = "<group>"; };
+		116945EC18902426001D6132 /* CGFDateModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGFDateModifier.h; path = ../../../CGFDateModifier.h; sourceTree = "<group>"; };
+		116945ED18902426001D6132 /* CGFDateModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGFDateModifier.m; path = ../../../CGFDateModifier.m; sourceTree = "<group>"; };
+		116945EF18902440001D6132 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		116945F018902440001D6132 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		116945F118902440001D6132 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 		116945C2189023F6001D6132 /* DateModifierExample */ = {
 			isa = PBXGroup;
 			children = (
+				116945EB18902413001D6132 /* CGFDateModifier */,
+				116945EF18902440001D6132 /* ExampleViewController.h */,
+				116945F018902440001D6132 /* ExampleViewController.m */,
+				116945F118902440001D6132 /* ExampleViewController.xib */,
 				116945CB189023F6001D6132 /* AppDelegate.h */,
 				116945CC189023F6001D6132 /* AppDelegate.m */,
 				116945CE189023F6001D6132 /* Images.xcassets */,
@@ -142,6 +154,15 @@
 				116945DE189023F6001D6132 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		116945EB18902413001D6132 /* CGFDateModifier */ = {
+			isa = PBXGroup;
+			children = (
+				116945EC18902426001D6132 /* CGFDateModifier.h */,
+				116945ED18902426001D6132 /* CGFDateModifier.m */,
+			);
+			name = CGFDateModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116945C7189023F6001D6132 /* InfoPlist.strings in Resources */,
+				116945F318902440001D6132 /* ExampleViewController.xib in Resources */,
 				116945CF189023F6001D6132 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116945EE18902426001D6132 /* CGFDateModifier.m in Sources */,
+				116945F218902440001D6132 /* ExampleViewController.m in Sources */,
 				116945CD189023F6001D6132 /* AppDelegate.m in Sources */,
 				116945C9189023F6001D6132 /* main.m in Sources */,
 			);
