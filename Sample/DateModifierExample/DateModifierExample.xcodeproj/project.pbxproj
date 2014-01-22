@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116945BD189023F6001D6132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945BC189023F6001D6132 /* Foundation.framework */; };
+		116945BF189023F6001D6132 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945BE189023F6001D6132 /* CoreGraphics.framework */; };
+		116945C1189023F6001D6132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945C0189023F6001D6132 /* UIKit.framework */; };
+		116945C7189023F6001D6132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116945C5189023F6001D6132 /* InfoPlist.strings */; };
+		116945C9189023F6001D6132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945C8189023F6001D6132 /* main.m */; };
+		116945CD189023F6001D6132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945CC189023F6001D6132 /* AppDelegate.m */; };
+		116945CF189023F6001D6132 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116945CE189023F6001D6132 /* Images.xcassets */; };
+		116945D6189023F6001D6132 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945D5189023F6001D6132 /* XCTest.framework */; };
+		116945D7189023F6001D6132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945BC189023F6001D6132 /* Foundation.framework */; };
+		116945D8189023F6001D6132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116945C0189023F6001D6132 /* UIKit.framework */; };
+		116945E0189023F6001D6132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116945DE189023F6001D6132 /* InfoPlist.strings */; };
+		116945E2189023F6001D6132 /* DateModifierExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116945E1189023F6001D6132 /* DateModifierExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116945D9189023F6001D6132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116945B1189023F6001D6132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116945B8189023F6001D6132;
+			remoteInfo = DateModifierExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116945B9189023F6001D6132 /* DateModifierExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateModifierExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116945BC189023F6001D6132 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		116945BE189023F6001D6132 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		116945C0189023F6001D6132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		116945C4189023F6001D6132 /* DateModifierExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateModifierExample-Info.plist"; sourceTree = "<group>"; };
+		116945C6189023F6001D6132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		116945C8189023F6001D6132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		116945CA189023F6001D6132 /* DateModifierExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateModifierExample-Prefix.pch"; sourceTree = "<group>"; };
+		116945CB189023F6001D6132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116945CC189023F6001D6132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116945CE189023F6001D6132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		116945D4189023F6001D6132 /* DateModifierExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateModifierExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116945D5189023F6001D6132 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		116945DD189023F6001D6132 /* DateModifierExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateModifierExampleTests-Info.plist"; sourceTree = "<group>"; };
+		116945DF189023F6001D6132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		116945E1189023F6001D6132 /* DateModifierExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateModifierExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116945B6189023F6001D6132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945BF189023F6001D6132 /* CoreGraphics.framework in Frameworks */,
+				116945C1189023F6001D6132 /* UIKit.framework in Frameworks */,
+				116945BD189023F6001D6132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116945D1189023F6001D6132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945D6189023F6001D6132 /* XCTest.framework in Frameworks */,
+				116945D8189023F6001D6132 /* UIKit.framework in Frameworks */,
+				116945D7189023F6001D6132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116945B0189023F6001D6132 = {
+			isa = PBXGroup;
+			children = (
+				116945C2189023F6001D6132 /* DateModifierExample */,
+				116945DB189023F6001D6132 /* DateModifierExampleTests */,
+				116945BB189023F6001D6132 /* Frameworks */,
+				116945BA189023F6001D6132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116945BA189023F6001D6132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116945B9189023F6001D6132 /* DateModifierExample.app */,
+				116945D4189023F6001D6132 /* DateModifierExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116945BB189023F6001D6132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116945BC189023F6001D6132 /* Foundation.framework */,
+				116945BE189023F6001D6132 /* CoreGraphics.framework */,
+				116945C0189023F6001D6132 /* UIKit.framework */,
+				116945D5189023F6001D6132 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		116945C2189023F6001D6132 /* DateModifierExample */ = {
+			isa = PBXGroup;
+			children = (
+				116945CB189023F6001D6132 /* AppDelegate.h */,
+				116945CC189023F6001D6132 /* AppDelegate.m */,
+				116945CE189023F6001D6132 /* Images.xcassets */,
+				116945C3189023F6001D6132 /* Supporting Files */,
+			);
+			path = DateModifierExample;
+			sourceTree = "<group>";
+		};
+		116945C3189023F6001D6132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116945C4189023F6001D6132 /* DateModifierExample-Info.plist */,
+				116945C5189023F6001D6132 /* InfoPlist.strings */,
+				116945C8189023F6001D6132 /* main.m */,
+				116945CA189023F6001D6132 /* DateModifierExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		116945DB189023F6001D6132 /* DateModifierExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				116945E1189023F6001D6132 /* DateModifierExampleTests.m */,
+				116945DC189023F6001D6132 /* Supporting Files */,
+			);
+			path = DateModifierExampleTests;
+			sourceTree = "<group>";
+		};
+		116945DC189023F6001D6132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116945DD189023F6001D6132 /* DateModifierExampleTests-Info.plist */,
+				116945DE189023F6001D6132 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116945B8189023F6001D6132 /* DateModifierExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116945E5189023F6001D6132 /* Build configuration list for PBXNativeTarget "DateModifierExample" */;
+			buildPhases = (
+				116945B5189023F6001D6132 /* Sources */,
+				116945B6189023F6001D6132 /* Frameworks */,
+				116945B7189023F6001D6132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateModifierExample;
+			productName = DateModifierExample;
+			productReference = 116945B9189023F6001D6132 /* DateModifierExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116945D3189023F6001D6132 /* DateModifierExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116945E8189023F6001D6132 /* Build configuration list for PBXNativeTarget "DateModifierExampleTests" */;
+			buildPhases = (
+				116945D0189023F6001D6132 /* Sources */,
+				116945D1189023F6001D6132 /* Frameworks */,
+				116945D2189023F6001D6132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116945DA189023F6001D6132 /* PBXTargetDependency */,
+			);
+			name = DateModifierExampleTests;
+			productName = DateModifierExampleTests;
+			productReference = 116945D4189023F6001D6132 /* DateModifierExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116945B1189023F6001D6132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Björn Kaiser";
+				TargetAttributes = {
+					116945D3189023F6001D6132 = {
+						TestTargetID = 116945B8189023F6001D6132;
+					};
+				};
+			};
+			buildConfigurationList = 116945B4189023F6001D6132 /* Build configuration list for PBXProject "DateModifierExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 116945B0189023F6001D6132;
+			productRefGroup = 116945BA189023F6001D6132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116945B8189023F6001D6132 /* DateModifierExample */,
+				116945D3189023F6001D6132 /* DateModifierExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116945B7189023F6001D6132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945C7189023F6001D6132 /* InfoPlist.strings in Resources */,
+				116945CF189023F6001D6132 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116945D2189023F6001D6132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945E0189023F6001D6132 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116945B5189023F6001D6132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945CD189023F6001D6132 /* AppDelegate.m in Sources */,
+				116945C9189023F6001D6132 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116945D0189023F6001D6132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116945E2189023F6001D6132 /* DateModifierExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116945DA189023F6001D6132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116945B8189023F6001D6132 /* DateModifierExample */;
+			targetProxy = 116945D9189023F6001D6132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		116945C5189023F6001D6132 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116945C6189023F6001D6132 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		116945DE189023F6001D6132 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116945DF189023F6001D6132 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116945E3189023F6001D6132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		116945E4189023F6001D6132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116945E6189023F6001D6132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateModifierExample/DateModifierExample-Prefix.pch";
+				INFOPLIST_FILE = "DateModifierExample/DateModifierExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		116945E7189023F6001D6132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateModifierExample/DateModifierExample-Prefix.pch";
+				INFOPLIST_FILE = "DateModifierExample/DateModifierExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		116945E9189023F6001D6132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DateModifierExample.app/DateModifierExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateModifierExample/DateModifierExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DateModifierExampleTests/DateModifierExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		116945EA189023F6001D6132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DateModifierExample.app/DateModifierExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateModifierExample/DateModifierExample-Prefix.pch";
+				INFOPLIST_FILE = "DateModifierExampleTests/DateModifierExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116945B4189023F6001D6132 /* Build configuration list for PBXProject "DateModifierExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116945E3189023F6001D6132 /* Debug */,
+				116945E4189023F6001D6132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116945E5189023F6001D6132 /* Build configuration list for PBXNativeTarget "DateModifierExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116945E6189023F6001D6132 /* Debug */,
+				116945E7189023F6001D6132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		116945E8189023F6001D6132 /* Build configuration list for PBXNativeTarget "DateModifierExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116945E9189023F6001D6132 /* Debug */,
+				116945EA189023F6001D6132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116945B1189023F6001D6132 /* Project object */;
+}
