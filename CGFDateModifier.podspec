@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-name         = "CGFDateModifier"
+  s.name         = "CGFDateModifier"
   s.version      = "0.0.1"
   s.summary      = "Modify a NSDate the easy way."
   s.homepage     = "http://github.com/codegefluester/CGFDateModifier"
