@@ -16,7 +16,7 @@
     __block int numOfKind = 0;
     CGFHumanDateModifierType type;
     NSDateComponents *components = [[NSDateComponents alloc] init];
-    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     
     // What should we do (add vs. sub)?
     if([modifier hasPrefix:@"-"]) substract = YES;
@@ -61,7 +61,7 @@
             [components setDay:numOfKind];
             break;
         case CGFHumanDateModifierTypeWeeks:
-            [components setWeek:numOfKind];
+            [components setWeekOfYear:[gregorian components:NSCalendarUnitWeekOfYear fromDate:date].weekOfYear+numOfKind];
             break;
         case CGFHumanDateModifierTypeMonths:
             [components setMonth:numOfKind];
