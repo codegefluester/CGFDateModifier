@@ -61,7 +61,7 @@
             [components setDay:numOfKind];
             break;
         case CGFHumanDateModifierTypeWeeks:
-            [components setWeekOfYear:[gregorian components:NSCalendarUnitWeekOfYear fromDate:date].weekOfYear+numOfKind];
+            [components setWeekOfYear:numOfKind];
             break;
         case CGFHumanDateModifierTypeMonths:
             [components setMonth:numOfKind];
